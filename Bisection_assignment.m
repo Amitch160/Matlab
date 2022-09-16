@@ -3,9 +3,9 @@
 clear all
 clc
 
+f=@(x) x*sin(x)-1;
 
 
-f=@(x) 2*sin(x^2)-x ;
 
 
 a=input("Enter left side of interval:");
